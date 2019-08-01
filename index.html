@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <title>dirnkweb</title>
     <link rel="stylesheet" href="index.css">
+    <style>
+        img
+    {
+    width: 100px;
+    height: 100px;
+    }
+        </style>
     
 </head>
 <body>
     <div id="box">
         <nav>
-            <a href="#">johnny 飲料店</a>
+            <a href="index.html" id="logo">johnny 飲料店</a>
             <div>
-                <a href="#">關於我</a>
+                <a href="about.html">關於我</a>
                 <a href="#">故事</a>
-                <a href="#">連絡我</a>
+                <a href="#">聯絡我</a>
             </div>
         </nav>
-        <section> <!--段落-->
+        <section id="content">
             <h1>我們是 johnny 飲料店</h1>
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, quas.
@@ -24,6 +31,17 @@
             <a href="#">前往購買</a>
             <hr>
         </section>
+
+        <section id="button">
+            <!-- (a[href="#"]>img)*3 -->
+            <a href="#" class="button-mr"><img src="user.png" alt="關於我"></a>
+            <a href="#" class="button-mr"><img src="cup.png" alt="飲料"></a>
+            <a href="#"><img src="iconfinder_multimedia-01_2849835.png" alt="聯絡我"></a>
+        </section>
+        
     </div>
+    <footer>
+       johnny 飲料店 &copy; 2019
+    </footer>
 </body>
 </html>
